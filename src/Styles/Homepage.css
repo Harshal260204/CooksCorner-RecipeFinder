@@ -1,0 +1,44 @@
+.carousel-item {
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black shadow overlay */
+    z-index: 1;
+}
+
+.carousel-caption {
+    position: relative;
+    z-index: 2;
+    top: 200px;
+    /* Ensures text is above overlay */
+}
+
+.text{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFE31A;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.Categories-Component{
+    background-color: #FDDBBB;
+}
+
+.Top-Recipes .top{
+    text-align: center;
+}
