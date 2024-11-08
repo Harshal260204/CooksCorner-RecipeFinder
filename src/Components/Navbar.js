@@ -22,9 +22,9 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item px-2 fs-5 ">
-                <a className="nav-link fw-bold" style={{color:"#6A1E55"}} href= "#">
+                <Link to='/About' className="nav-link fw-bold" style={{color:"#6A1E55"}} href= "#">
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
             <form className="d-flex" role="search">

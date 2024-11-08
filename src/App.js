@@ -24,4 +24,14 @@ function App() {
         {/* Drinks Page */}
         <Route path='/Drinks' element={<Drinks/>}/>
         {/* Sandwich Page */}
-        <Route path='/Sandwiches' e
+        <Route path='/Sandwiches' element={<Sandwich/>}/>
+
+      </Routes>
+      
+      <Footer/>
+    </BrowserRouter>
+
+  );
+}
+
+export default App;
