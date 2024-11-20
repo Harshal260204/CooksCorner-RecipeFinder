@@ -13,6 +13,7 @@ import img6 from "../Images/soupssandwiches.jpg";
 
 import CategoryCard from "../Components/CategoryCard";
 import RecipeCard from "../Components/RecipeCard";
+// import RecipessCard from "../Components/RecipessCard";
 
 export default function Homepage() {
   return (
@@ -104,7 +105,8 @@ export default function Homepage() {
       >
         <div>
           <h1 className="fw-bold top">TOP RECIPES</h1>
-          <RecipeCard />
+          {/* <RecipeCard /> */}
+          <RecipeCard/>
         </div>
       </div>
     </div>
